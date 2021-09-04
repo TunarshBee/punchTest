@@ -9,7 +9,8 @@ import Contact from './pages/contact';
 import SignUp from './pages/signup';
 import Welcome from './components/Navbar/Welcome';
 import Objective from './components/Navbar/Objective'
-import Pricing from './components/Pricing';
+import Portfolio from './components/Navbar/Portfolio';
+import Pricing from './components/Navbar/Pricing';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Welcome/>
       <Objective/>
       <Pricing />
+      <Portfolio/>
     </Router>
   );
 }

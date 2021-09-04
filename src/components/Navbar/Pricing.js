@@ -1,8 +1,8 @@
 import React from 'react'
-import '../css/pricing.css'
-import FirstCard from './Navbar/cards/FirstCard'
-import SecondCard from './Navbar/cards/SecondCard'
-import ThirdCard from './Navbar/cards/ThirdCard'
+import '../../css/pricing.css'
+import FirstCard from './cards/FirstCard'
+import SecondCard from './cards/SecondCard'
+import ThirdCard from './cards/ThirdCard'
 
 function Pricing() {
     return (
