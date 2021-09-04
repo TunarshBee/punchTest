@@ -1,0 +1,32 @@
+.saying{
+    text-align: center;
+}
+.saying p{
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+color: #2349B6;
+margin-bottom: 2%;
+}
+.saying span{
+    font-family: Sagona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    color: #222222;
+}
+.saying a{
+    margin-top: 2%;
+    display: block;
+    text-decoration: none;
+    color: #222222;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}

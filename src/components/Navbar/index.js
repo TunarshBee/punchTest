@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Nav,
-  NavLink,
   NavMenu,
   NavBtn,
   NavBtnLink
@@ -12,24 +11,22 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to='/' style={{color:'#000'}}>
+        <a href="#welcome" style={{color:'#000'}}>
           <img src={Vector} alt='' />
           <h3>Recrowdly</h3>
-        </NavLink>
+        </a>
         
         <NavMenu>
-          <NavLink to='/about' activeStyle>
-            Home
-          </NavLink>
-          <NavLink to='/about' activeStyle>
+         <a href='#welcome'>Home</a>
+          <a href='#objective' activeStyle>
             Services
-          </NavLink>
-          <NavLink to='/services' activeStyle>
+          </a>
+          <a href='#pricing' activeStyle>
             Pricing
-          </NavLink>
-          <NavLink to='/contact-us' activeStyle>
+          </a>
+          <a href='#portfolio' activeStyle>
             Portfolio
-          </NavLink>
+          </a>
         </NavMenu>
         <NavBtn>
           <NavBtnLink to='/'>Schedule A Call</NavBtnLink>

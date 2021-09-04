@@ -13,20 +13,6 @@ export const Nav = styled.nav`
 
 `;
 
-export const NavLink = styled(Link)`
-  color: #000;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
-  cursor: pointer;
-
-  &.active {
-    color: #15cdfc;
-  }
-`;
-
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;

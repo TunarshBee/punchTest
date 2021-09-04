@@ -61,6 +61,11 @@ margin:5% auto;
     font-weight: bold;
     font-size: 14px;
 }
+.welcome form a:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #222;
+}
 .welcome .video {
     position: absolute;
     width: 70%;

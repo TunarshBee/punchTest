@@ -6,7 +6,7 @@ import ThirdCard from './cards/ThirdCard'
 
 function Pricing() {
     return (
-        <div className='pricingContainer'>
+        <div className='pricingContainer'  id='pricing'>
             <h1 className='model'>
                 Pricing Model
             </h1>

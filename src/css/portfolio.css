@@ -20,10 +20,15 @@
     outline: none;
     border: none;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition:  0.2s ease-in-out;
     text-decoration: none;
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
+}
+.autoBus a:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #222;
 }

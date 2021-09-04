@@ -8,7 +8,7 @@ import mixed from '../../images/mixed.svg'
 
 function Objective() {
     return (
-        <div className='objective'>
+        <div className='objective' id='objective'>
             <p className='inskit'>
             <img src={inskit} alt=''  />
             </p>
