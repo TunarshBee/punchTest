@@ -9,6 +9,7 @@ import Contact from './pages/contact';
 import SignUp from './pages/signup';
 import Welcome from './components/Navbar/Welcome';
 import Objective from './components/Navbar/Objective'
+import Pricing from './components/Pricing';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       </Switch>
       <Welcome/>
       <Objective/>
+      <Pricing />
     </Router>
   );
 }
