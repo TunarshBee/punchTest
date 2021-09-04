@@ -1,0 +1,72 @@
+.objective{
+    font-family: sans-serif;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    margin: 5% auto;
+    width: 90%;
+    position: relative;
+    padding-top: 15%;
+}
+.objective .inskit {    
+    opacity: 0.2;
+}
+.objective .inskit img{
+    width: 70%;
+    height: 64px;
+    background: #3B5160;
+    mix-blend-mode: darken;
+}
+.objective .article{
+    margin:5% auto 2% auto;
+    width:60%;
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+}
+.objective .article2{
+    width: 50%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    margin-left: 25%;
+}
+.objective .card-container{
+    display: inline-block;
+    width: 33%;
+    margin-top: 5%;
+}
+.objective .card-container .img{
+    width: 100px;
+    height: 100px;
+    left: 300px;
+    top: 1688px;
+
+}
+.objective .card-container .animation{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.objective .card-container .content{
+    width: 95%;
+    height: 44px;
+    left: 165px;
+    top: 1898px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;    
+    text-align: center;
+    color: #000000;
+}

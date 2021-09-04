@@ -8,6 +8,7 @@ import Services from './pages/services';
 import Contact from './pages/contact';
 import SignUp from './pages/signup';
 import Welcome from './components/Navbar/Welcome';
+import Objective from './components/Navbar/Objective'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
       </Switch>
       <Welcome/>
+      <Objective/>
     </Router>
   );
 }

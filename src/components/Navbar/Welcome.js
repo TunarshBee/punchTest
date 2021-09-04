@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { NavBtn } from './NavbarElements'
+import video from '../../images/video.svg'
 import '../../css/welcome.css'
 
 function Welcome() {
@@ -12,16 +13,12 @@ function Welcome() {
             </h2>
             <form>
                 <input type='email' placeholder='Enter an email address  and let’s get started'/>
-                <NavBtn>
-                    <NavLink to='/'>
-                        Let;s Go
-                    </NavLink>
-                </NavBtn>
+                <a href='/'>
+                    Let's Go
+                </a>
             </form>
-
-            <video width="400" controls="controls" preload="metadata">
-  <source src="https://www.w3schools.com/html/mov_bbb.mp4#t=0.5" type="video/mp4" />
-</video>
+            <img src={video} alt='Video' className='video' />
+        
         </div>
     )
 }
