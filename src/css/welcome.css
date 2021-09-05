@@ -121,10 +121,9 @@ margin:5% auto;
         }
         .callBtn2 .callSched2{
             position: absolute;
-            left: 55%;
-            margin: 0%;
-            top: 0px;
             visibility: visible;
+            left: 0 !important;
+            
           }
 
   }

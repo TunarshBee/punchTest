@@ -7,10 +7,10 @@
   padding: 0;
 }
 a{
-  color: #000;
+  color: #000 ;
   display: flex;
   align-items: center;
-  text-decoration: none;
+  text-decoration: none !important;
   padding: 0 1rem;
   cursor: pointer;
   text-align: center;
@@ -43,7 +43,9 @@ a:hover{
   visibility: hidden;
 }
 
-
+.links{
+  color: #000 !important;
+}
 
 @media screen and (max-width: 768px) {
   .menuIcon{
@@ -63,14 +65,19 @@ a:hover{
   }
   .callBtn2{
     position: absolute;
-    left: 55%;
     margin: 0%;
+    margin-left: 50%;
     top: 0px;
     visibility: visible;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    right: 55%;
   }
   .callSched2{
     display: block;
     visibility: visible;
+    left: 50%;
   }
   .closeBtn{
     position: absolute;
