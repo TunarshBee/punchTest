@@ -17,7 +17,7 @@ function Footer() {
                     <a href='/ '>FAQs</a>
                 </div>
                 <div>
-                    <span>A Punch Group Company </span>
+                    <section>A Punch Group Company </section>
                     <b> punch</b>
                 </div>
             </div>
