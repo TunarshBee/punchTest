@@ -33,6 +33,13 @@
     color: #000;
     border: 1px solid #222;
 }
+.caro{
+    height: 400px;
+    width: 90%;
+    background-color: #E5E5E5;
+    margin: auto;
+    margin-bottom: 5%;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -46,5 +53,12 @@
     }
     .autoBus a{
         padding: 1% 20%;
+    }
+    .caro{
+        height: 200px;
+        width: 70%;
+        background-color: #E5E5E5;
+        margin: auto;
+        margin-bottom: 5%;
     }
 }

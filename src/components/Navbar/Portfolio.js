@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../css/portfolio.css'
-// import { Carousel } from 'react-bootstrap'
-// import 'bootstrap/dist/css/bootstrap.min.css'
+import { Carousel, CarouselItem } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Portfolio() {
     return (
@@ -12,7 +12,23 @@ function Portfolio() {
             in the US and Globally.  Here Are Just a Few!
             </p>
 
-                 
+                <Carousel>
+                    <CarouselItem>
+                        <h1 className="caro">
+
+                        </h1>
+                    </CarouselItem>    
+                    <CarouselItem>
+                        <h1 className="caro">
+
+                        </h1>
+                    </CarouselItem>    
+                    <CarouselItem>
+                        <h1 className="caro">
+                            
+                        </h1>
+                    </CarouselItem>    
+                </Carousel>                 
 
             <div className='autoBus'>
                 <b>Automated Business Growth</b>
