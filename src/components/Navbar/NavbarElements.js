@@ -8,39 +8,41 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
+  transition:  0.9s linear;
   position: sticky;
   width;100%;
-
+  
+  @media screen and (max-width: 768px) {
+    display: inline-block;
+    top: 0px;
+    transition:  0.9s ease;
+    bottom:0px;
+    position: fixed;
+    text-align: center;
+    height: 100vh;
+    width: 19%;
+    left:0px;
+  }
 `;
 
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
-
-  /* Second Nav */
-  /* margin-right: 24px; */
-
-  /* Third Nav */
-  /* width: 100vw;
-  white-space: nowrap; */
+  padding-top:10%;
 
   @media screen and (max-width: 768px) {
-    display: none;
+    display: block;
   }
 `;
 
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
-  margin-right: 24px;
-
-  /* Third Nav */
-  /* justify-content: flex-end;
-  width: 100vw; */
+  margin:  15px;
 
   @media screen and (max-width: 768px) {
-    display: none;
+    display: block;
   }
 `;
 

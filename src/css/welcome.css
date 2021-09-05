@@ -7,13 +7,13 @@
     text-align:center;
     justify-content:center;
     background-image: url('bg.svg');
-    position: relative;
-    padding-top: 20%;
+    /* position: relative; */
 }
 .welcome h2{
     width: 80%;
     height: auto;
     margin:auto;
+    margin-top: 5%;
 
     font-family: sans-serif;
     font-style: normal;
@@ -69,8 +69,56 @@ margin:5% auto;
 .welcome .video {
     position: absolute;
     width: 70%;
-    height: 570px;
+    /* height: 570px; */
     left: 200px;
-    top: 605px;
+    top: 645px;
     
 }
+.visible{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 768px) {
+    .welcome{
+        
+        height: 100vh;
+        text-align:center;
+        justify-content:center;
+        background-image: url('bg.svg');
+        position: relative;
+        padding-top: 0%;
+        
+    }
+    .welcome .video {
+        left: 15%;
+        top: 80%;
+    }
+    .welcome h2{    
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 74px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .welcome form{
+        width: 55%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-end;
+        }
+        .welcome form input{
+            width:100%;
+        }
+        .welcome form a{
+            width:30%;
+            margin-right: 6%;
+        }
+
+  }

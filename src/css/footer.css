@@ -2,6 +2,7 @@
     margin-top: 5%;
     width: 100%;
     padding: 0% 10%;
+    margin-bottom: 1%;
 }
 .footer{
     display: inline-flex;
@@ -9,6 +10,7 @@
     align-self: center;
     align-items: center;
     padding: 1%;
+    width: 100%;
 }
 .footLinks, .vecRec{
     display: inline-flex;
@@ -22,4 +24,24 @@
     display: inline-flex;
     text-align: center;
     color: #222;
+}
+.section{
+    display: inline-flex;
+}
+.section section{
+    margin-right: 4px;
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        display: inline-flex;
+        flex-direction: column;
+    }   
+    .footLinks {
+        
+        margin: 2% 2%;
+
+    }
+    .section{
+        display: inline-flex;
+    }
 }

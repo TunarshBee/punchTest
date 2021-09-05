@@ -26,9 +26,25 @@
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
+    text-align: center !important;
 }
 .autoBus a:hover{
     background: #fff;
     color: #000;
     border: 1px solid #222;
+}
+
+
+@media screen and (max-width: 768px) {
+    .autoBus{
+        width: 87%;
+        display: flex;
+        flex-direction: column;
+    }
+    .autoBus b{
+        width: 75%;
+    }
+    .autoBus a{
+        padding: 1% 20%;
+    }
 }

@@ -70,3 +70,31 @@
     text-align: center;
     color: #000000;
 }
+
+@media screen and (max-width: 768px) {
+    .objective .article{
+        font-size: 34px;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .objective .article2{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .objective .card-container{
+        align-items: center;
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+    }
+    .objective .card-container .img{
+        width: 10%;
+    }
+    .objective .card-container div{
+        text-align: left;
+    }.objective .card-container .animation,
+    .objective .card-container .content{
+        text-align: start;
+    }
+}

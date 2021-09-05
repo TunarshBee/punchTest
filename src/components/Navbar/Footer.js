@@ -16,7 +16,7 @@ function Footer() {
                     <a href='/'>Process</a>
                     <a href='/ '>FAQs</a>
                 </div>
-                <div>
+                <div className='section'>
                     <section>A Punch Group Company </section>
                     <b> punch</b>
                 </div>
