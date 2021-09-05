@@ -7,7 +7,6 @@
     text-align:center;
     justify-content:center;
     background-image: url('bg.svg');
-    /* position: relative; */
 }
 .welcome h2{
     width: 80%;
@@ -69,17 +68,11 @@ margin:5% auto;
 .welcome .video {
     position: absolute;
     width: 70%;
-    /* height: 570px; */
     left: 200px;
     top: 645px;
     
 }
-.visible{
-    visibility: visible;
-}
-.hidden{
-    visibility: hidden;
-}
+
 
 
 @media screen and (max-width: 768px) {
@@ -120,5 +113,18 @@ margin:5% auto;
             width:30%;
             margin-right: 6%;
         }
+        .visible{
+            visibility: visible;
+        }
+        .hidden{
+            visibility: hidden;
+        }
+        .callBtn2 .callSched2{
+            position: absolute;
+            left: 55%;
+            margin: 0%;
+            top: 0px;
+            visibility: visible;
+          }
 
   }

@@ -29,7 +29,7 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
-  padding-top:10%;
+  // padding-top:10%;
 
   @media screen and (max-width: 768px) {
     display: block;

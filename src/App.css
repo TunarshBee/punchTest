@@ -12,7 +12,6 @@ a{
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  /* height: 100%; */
   cursor: pointer;
   text-align: center;
 }
@@ -25,21 +24,23 @@ a:hover{
 .menuIcon p{
   margin: 7%;
   border-radius: 110px;
-  /* width: 10%; */
+
   height: 5px;
   background-color: #000;
 }
 .menuIcon{
-  /* margin-left: 97%; */
   margin-right: 2%;
   display: none;
-  /* visibility: collapse; */
 }
 
 .vector1, .callBtn2 .closeBtn{
   visibility: hidden;
-  /* display: none; */
   margin: 0;
+  /* display: none; */
+}
+.callSched2{
+  display: none;
+  visibility: hidden;
 }
 
 
@@ -63,15 +64,18 @@ a:hover{
   .callBtn2{
     position: absolute;
     left: 55%;
+    margin: 0%;
     top: 0px;
     visibility: visible;
   }
-  .callSched{
-    height: 10px;
+  .callSched2{
+    display: block;
+    visibility: visible;
   }
   .closeBtn{
     position: absolute;
     right: 5px;
+
   }
   .links{
     margin-bottom: 10%;

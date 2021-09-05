@@ -6,9 +6,7 @@ import {
   NavBtnLink
 } from './NavbarElements';
 import Vector from '../../images/Vector.svg'
-// import {Nav} from 'react-bootstrap'
-// import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-// import '../../../node_modules/bootstrap/dist/js/bootstrap'
+
 
 class Navbar extends React.Component {
   render(){
@@ -21,7 +19,7 @@ class Navbar extends React.Component {
             <img src={Vector} alt='' className='vector'/>
             <h3 className="recrowdly">Recrowdly</h3>
           </a>
-            {/* <b className='closeBtn' > X </b> */}
+
           <NavMenu>
            <a className='links' href='#welcome'>Home</a>
             <a className='links' href='#objective'>
